@@ -39,9 +39,7 @@ class Solution {
             return;
         }
         list.add(root.val);
-
         preorder(root.left);
-
         preorder(root.right);
     }
 }
